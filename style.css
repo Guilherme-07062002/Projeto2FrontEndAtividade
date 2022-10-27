@@ -54,21 +54,27 @@ main img {
     height: 35vh;
     width: 35vw;
 }
+section{
+    display: flex;
+    flex-direction: column;
+}
 
 section h1 {
     margin: 0;
     font-size: 1.9rem;
     font-weight: 600;
     margin-bottom: 5vh;
+    width: max-content;
 }
 section p{
+    width: 36vw;
     color: #C2C2C2;
     font-family: 'OpenSans';
     font-size: 0.85rem;
     font-style: italic;
     margin-bottom: 3vh;
 }
-#pspan1{
+.pspan1{
     font-weight: bold
 }
 #pspan2{
